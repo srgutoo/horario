@@ -24,17 +24,8 @@
               <label for="exampleInputPassword1">Turno</label>
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
-        </form>          
-      </div>
-       <div>
-          <label for="exampleInputPassword1"></label>  
-          <tr>
-            <div class="right_button">
-             <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-            </div>
-          </tr>
-       </div> 
-       <label for="exampleInputPassword1"></label>  
+        </form>
+
 
           <!-- Tabela de cadastrados -->
        <table class="table">
@@ -66,7 +57,7 @@
                       <td><?php echo $array['cod_turma']; ?></td>
                       <td><?php echo $array['nome']; ?></td>
                       <td><?php echo $array['qnt_horarios']; ?></td>
-                      <td><?php echo $array['turno']; ?></td>                    
+                      <td><?php echo $array['turno']; ?></td>   
                       <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
                     </form>
                   </tr>
